@@ -91,3 +91,38 @@ nav .nav_links a:hover {
     margin-right: 43%;       
 }
 
+.scroll_reveal {
+    padding-top: 100px;
+}
+
+.linkabc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.hide_text {
+    display: none;
+}
+
+.box_group:nth-child(2) {
+    size: 8px;
+    text-decoration-line: none;
+    color: black;
+    margin: auto;
+    
+
+}
+
+h1 {
+    text-align: center;
+}
+.box_img {
+    width: 200px;
+    margin: 0 70px 70px 70px;
+    border-radius: 50%;
+}
+
+
