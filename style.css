@@ -4,6 +4,7 @@
     box-sizing: border-box; 
     font-family: "Playwrite GB S", cursive;
     
+    
 }
 
 nav {
@@ -184,4 +185,38 @@ h1 {
     width: 100%;
     object-fit: cover;
     display: block;
+}
+
+
+.ft_img {
+    width: 150px;
+    
+    
+
+}
+
+.ft_images{
+    margin: 0 20px 0 20px;
+}
+
+.ft_images_all {
+    display: flex;
+    align-items: center;
+}
+
+.ft_links {
+    margin-left: 60px;
+    line-height: 30px;
+}
+
+.footer {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    margin: 100px auto 100px auto;
+    
+
+
 }
