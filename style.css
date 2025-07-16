@@ -242,3 +242,42 @@ a {
 }
 
 
+.heading1 {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #fff3b4;
+}
+
+.head1_img {
+    margin-top: 50px;
+    margin-right: 200px;
+    width: 300px;
+
+
+}
+
+
+.heading1_text {
+    margin-top: 100px;
+    margin-left: 130px;
+    width: 300px;
+    height: 200px;
+}
+
+h3 {
+    font-size: 25px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid black;
+    font-family: "DM Serif Text", serif;
+    
+    
+}
+
+.head1_p {
+    font-size: 15px;
+    padding-top: 15px;
+
+}
