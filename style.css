@@ -118,7 +118,7 @@ nav .nav_links a:hover {
 
 }
 
-h1 {
+.scroll_reveal h1 {
     text-align: center;
     font-family: "DM Serif Text", serif;
     text-transform: uppercase;
@@ -236,9 +236,15 @@ a {
     justify-content: space-between;
     align-items: center;
     width: 1000px;
-    margin: 150px auto 50px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 100px auto 0 auto;
 
 
+}
+
+.footer_sub1 {
+    background-color: aliceblue;
 }
 
 
@@ -249,6 +255,8 @@ a {
     align-items: center;
     margin: auto;
     background-color: #fff3b4;
+    font-family: "Marcellus", serif;
+
 }
 
 .head1_img {
@@ -267,11 +275,11 @@ a {
     height: 200px;
 }
 
-h3 {
+.heading1_text h3 {
     font-size: 25px;
     padding-bottom: 15px;
     border-bottom: 3px solid black;
-    font-family: "DM Serif Text", serif;
+    
     
     
 }
@@ -281,3 +289,110 @@ h3 {
     padding-top: 15px;
 
 }
+
+
+
+.quiz_container {
+    
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 100px auto 100px auto;
+    
+    background-color: #f4e2c9;
+
+}
+
+
+h2 {
+    margin: 20px;
+    font-family: "Marcellus", serif;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 32px;
+}
+
+#question_box {
+    margin: 30px auto 30px auto;
+    max-width: 600px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Marcellus", serif;
+}
+
+label {
+    display: block;
+    background-color: #e6fafc;
+    padding: 10px;
+    margin: 12px auto;
+    border-radius: 10px;
+    max-width: 400px;
+    font-size: 19px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    
+
+}
+
+label:hover {
+    background-color: #d0edef;
+}
+
+.question p {
+    font-size: 22px;
+    margin: 25px auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+
+button {
+    margin: auto 36px;
+    padding: 10px 15px;
+    background-color: #e6fafc;
+    color: black;
+    box-shadow: 2px 2px grey;
+
+}
+
+button:hover {
+    background-color: #d0edef;
+    box-shadow: none;
+
+}
+
+button:disabled {
+    background-color: lightgrey;
+    cursor: default;
+    box-shadow: none;
+}
+
+.progress_bar {
+    background-color: white;
+    width: 75%;
+    height: 6px;
+    border-radius: 5px;
+    align-items: center;
+    margin: auto;
+}
+
+#progress_fill {
+    background-color: #d0edef;
+    height: 100%;
+}
+
+#result {
+    text-align: center;
+    font-size: 22px;
+    padding: 15px;
+}
+
