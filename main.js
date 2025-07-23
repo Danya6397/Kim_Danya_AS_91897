@@ -163,6 +163,10 @@ function restartTest() {
     location.reload();
 }
 
+
+
+
+
 function calculateResult() {
     const total = userAnswers.reduce((sum, val) => sum + val, 0);
     let skinType = "";
@@ -186,7 +190,8 @@ function calculateResult() {
     
 
     document.getElementById("result").innerHTML = `
-        <h3>You have <strong>${skinType}</strong> skin.</h3>        
+        <h3>You have <strong>${skinType}</strong> skin.</h3>
+        <a href="${skinType}.html">Learn more about ${skinType} skin</a> 
     `;
 
     document.getElementById("restartBtn").style.display = "block";
