@@ -2,9 +2,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box; 
-    
-    
+
 }
+
+/*Navigation Bar*/
 
 nav {
     position: fixed;
@@ -27,6 +28,7 @@ nav .nav_content {
     justify-content: space-between;
     align-items: center;
 }
+
 
 nav .nav_content .logo a {
     font-size: 45px;
@@ -83,6 +85,10 @@ nav .nav_links a:hover {
 .drop_down:hover .drop_links {
     display: block;
 }
+
+/*End of Navigation Bar*/
+
+/*Home only content*/
 
 .home_open {
     height: 100vh;
@@ -151,7 +157,6 @@ nav .nav_links a:hover {
     border-radius: 50%;
 }
 
-
 .blurb {
     display: flex;
     justify-content: center;
@@ -218,8 +223,9 @@ nav .nav_links a:hover {
     object-fit: cover;
     display: block;
 }
+/*End of Home Page*/
 
-
+/*Footer*/
 .ft_img {
     width: 150px;
     margin-bottom: 7px;
@@ -268,6 +274,9 @@ a {
     background-color: aliceblue;
 }
 
+/*End of Footer*/
+
+/*Test Page*/
 
 .heading1 {
     height: 400px;
@@ -310,7 +319,6 @@ a {
     padding-top: 15px;
 
 }
-
 
 
 .quiz_container {
@@ -436,5 +444,82 @@ button:disabled {
     margin: auto;
 }
 
+/*End of test Page*/
+
+/*Skin type pages inclusive*/
+/**/
 
 
+.info_top {
+    height: 700px;
+    justify-content: space-between;
+    border-radius: 60px;
+    margin: 75px;
+    
+    font-family: "Marcellus", serif;
+
+}
+
+.info_main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_top h2 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.top_img {
+    
+    margin-top: 60px;
+    margin-left: 110px;
+}
+
+.extra_resource {
+    margin-left: 120px;
+}
+
+.extra_resource h4 {
+    padding: 25px 0 15px 0;
+}
+
+.extra_resource ul li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.top_text {
+    margin-top: 0px;
+    margin-right: 100px;
+    width: 600px;
+    height: 200px;
+}
+
+.top_text h3 {
+    font-size: 25px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid black;
+     
+}
+
+.top_text h4 {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.top_text p {
+    font-size: 15px;
+    padding-top: 15px;
+
+}
+
+
+
+
+
+
+
+
+/**/
