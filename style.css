@@ -451,7 +451,7 @@ button:disabled {
 
 
 .info_top {
-    height: 700px;
+    height: 900px;
     justify-content: space-between;
     border-radius: 60px;
     margin: 75px;
@@ -484,13 +484,13 @@ button:disabled {
     padding: 25px 0 15px 0;
 }
 
-.extra_resource ul li {
-    list-style: none;
+.extra_resource p {
+    width: 400px;
     padding-bottom: 10px;
 }
 
 .top_text {
-    margin-top: 0px;
+    margin-top: 20px;
     margin-right: 100px;
     width: 600px;
     height: 200px;
