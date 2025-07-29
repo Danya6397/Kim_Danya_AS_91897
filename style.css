@@ -535,19 +535,30 @@ button:disabled {
     width: 200px;
     border-radius: 50%;
     margin: 50px 60px 20px 60px;
+}
+
+.routine2 img {
+    width: 180px;
+    border-radius: 50%;
+    margin: 50px 40px 20px 40px;
 
 }
 
 .routine h2 {
     border-bottom: none;
-    font-size: 15px;
+    font-size: 18px;
+}
+
+.routine2 h2 {
+    border-bottom: none;
+    font-size: 18px;
 }
 
 .overlay {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin: 50px 60px 20px 60px;
+    margin: 50px 60px 10px 60px;
     display: none;
     background-color: #c3a77283;
     text-align: center;
@@ -562,6 +573,27 @@ button:disabled {
     font-size: 14px;
 }
 
+.overlay2 {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 50px 40px 10px 40px;
+    display: none;
+    background-color: #c3a77283;
+    text-align: center;
+
+    
+}
+
+.overlay2 p {
+    width: 180px;
+    height: 180px;
+    padding: 50px 20px 0 20px;
+    font-size: 14px;
+}
+
+
+
 .each:hover img {
     display: none;
 }
@@ -570,6 +602,9 @@ button:disabled {
     display: block;
 }
 
+.each:hover .overlay2 {
+    display: block;
+}
 
 
 
