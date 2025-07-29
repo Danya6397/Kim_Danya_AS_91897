@@ -451,7 +451,7 @@ button:disabled {
 
 
 .info_top {
-    height: 900px;
+    height: 700px;
     justify-content: space-between;
     border-radius: 60px;
     margin: 75px;
@@ -515,6 +515,60 @@ button:disabled {
 
 }
 
+
+.routine {
+    width: 100%;
+
+
+}
+
+.icon_span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+
+}
+
+.routine img {
+    width: 200px;
+    border-radius: 50%;
+    margin: 50px 60px 20px 60px;
+
+}
+
+.routine h2 {
+    border-bottom: none;
+    font-size: 15px;
+}
+
+.overlay {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 50px 60px 20px 60px;
+    display: none;
+    background-color: #c3a77283;
+    text-align: center;
+
+    
+}
+
+.overlay p {
+    width: 200px;
+    height: 200px;
+    padding: 70px 20px 0 20px;
+    font-size: 14px;
+}
+
+.each:hover img {
+    display: none;
+}
+
+.each:hover .overlay {
+    display: block;
+}
 
 
 
