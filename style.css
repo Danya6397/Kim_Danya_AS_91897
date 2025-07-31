@@ -265,7 +265,7 @@ a {
     width: 1000px;
     padding-top: 50px;
     padding-bottom: 50px;
-    margin: 100px auto 0 auto;
+    margin: 80px auto 0 auto;
 
 
 }
@@ -275,6 +275,28 @@ a {
 }
 
 /*End of Footer*/
+
+/*In progress filler page*/
+.in_progress {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.in_progress p {
+    font-size: 20px;
+    padding-left: 20px;
+    line-height: 30px;
+}
+
+.in_progress a {
+    text-decoration: underline;
+}
+
+
 
 /*Test Page*/
 
@@ -524,6 +546,16 @@ button:disabled {
 
 }
 
+span {
+    color: red;
+}
+
+.info_top strong {
+    color: green;
+}
+
+/*End of main information on each page*/
+
 .routine {
     width: 100%;
 
@@ -613,35 +645,149 @@ button:disabled {
 .each:hover .overlay2 {
     display: block;
 }
+/*End of all skin type pages*/
 
-.in_progress {
-    display: flex;
+
+/*General advice pages*/
+
+.advice_head h1 {
+    text-align: center;
+    margin: 120px 0 60px 0;
+    font-size: 100px;
+    font-family: "Marck Script", cursive;
+    color: #493e2d;
+}
+
+.advice_background {
+    background-color: #edc895;
+    margin: auto;
     width: 100%;
     height: 100%;
-    margin-top: 20%;
-    justify-content: center;
+    padding-bottom: 30px;
+}
+
+
+.pagelinks {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 0;
+
+}
+
+.onpage {
+    
+    background-color: white;
+    width: 350px;
+    padding: 50px 40px 0 40px;
+    text-align: center;
+    max-height: 483px;
+}
+
+.onpage h2 {
+    font-family: 'Marcellus', serif;
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.onpage li {
+    
+    font-size: 23px;
+    padding-top: 25px;
+    
+    font-family: 'Marcellus', serif;
+    font-weight: 500;
+
+}
+
+.onpage li:hover {
+    font-weight: bold;
+}
+
+.onpage ul{
+    list-style: none;
+}
+
+.outlinks img {
+    height: 250px;
+    border-radius: 20px;
+    margin: 20px 30px 15px 30px;
+
+}
+
+.imglinks {
+    margin: 30px 50px 10px 70px ;
+    display: flex;
+    
+}
+
+.outlinks h2 {
+    max-width: 900px;
+    text-align: left;
+    margin: 80px 0 10px 120px;
+    font-size: 35px;
+
+}
+
+.together p {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Marcellus', serif;
+    font-weight: bolder;
+}
+
+
+html {
+    scroll-padding-top: 80px;
+}
+
+.advice_middle {
+    width: 80%;
     align-items: center;
+    margin-left: 120px;
 }
 
-.in_progress p {
+.importance {
+    margin-top: 40px;
+}
+
+.advice_middle h2 {
+    text-align: left;
+    margin: 60px 0 20px 0;
+    font-size: 35px;
+}
+
+.advice_middle p {
     font-size: 20px;
-    padding-left: 20px;
-    line-height: 30px;
+    
 }
 
-.in_progress a {
+.para {
+    margin-bottom: 150px;
+}
+
+h5 {
+    font-size: 22px;
+    margin: 25px 0 10px;
+    font-weight: 700;
+    
+}
+
+.indent {
+    margin-left: 10px;
+}
+
+.advice_middle a {
     text-decoration: underline;
+    color: rgb(67, 132, 229);
 }
 
+.advice_background strong {
+    color: #232426;
+    font-weight: 600;
 
-span {
-    color: red;
 }
 
-.info_top strong {
-    color: green;
+.holistic {
+    padding-bottom: 80px;
 }
-
-
-
-/**/
