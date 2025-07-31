@@ -791,3 +791,63 @@ h5 {
 .holistic {
     padding-bottom: 80px;
 }
+
+/*Credit Page*/
+
+.credit_head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto ;
+    text-align: center;
+    padding: 120px 0 70px;
+
+    background-color: #faf5ce;
+}
+
+.cleft {
+    width: 60%;
+}
+
+.cleft h1 {
+    font-size: 75px;
+    font-family: "Amarante", serif;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+.cright{
+    width: 40%;
+} 
+
+.cright p {
+    padding-right: 250px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Marcellus', serif;
+}
+
+.icons{
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    column-gap: 80px;
+    row-gap: 60px;
+    
+
+}
+
+.icons img {
+    width: 200px;
+    display: block;
+    border-radius: 40px;
+}
+
+figcaption {
+    padding-top: 10px;
+    font-size: 17px;
+    text-align: center;
+}
