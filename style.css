@@ -93,6 +93,7 @@ nav .nav_links a:hover {
 .home_open {
     height: 100vh;
     background-color: #fff3b4;
+    width: auto;
 }
 
 .open_img {
@@ -113,15 +114,16 @@ nav .nav_links a:hover {
 }
 
 .open_heading {
-    width: 37%;
+    width: 42%;
     border-radius: 50px;
     position: absolute;
-    bottom: 71%;
-    margin-right: 40%;       
+    bottom: 68%;
+    margin-right: 36%;       
 }
 
 .scroll_reveal {
-    padding-top: 170px;
+    padding-top: 140px;
+    
 }
 
 .linkabc {
@@ -147,7 +149,7 @@ nav .nav_links a:hover {
 
 .scroll_reveal h1 {
     text-align: center;
-    font-family: "DM Serif Text", serif;
+    font-family: "Josefin Sans", sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
@@ -159,37 +161,51 @@ nav .nav_links a:hover {
 
 .blurb {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 220px;
-    margin-bottom: 300px;
-    height: 300px;
-    width: 1500px;
+
+    margin: 160px auto 170px auto;
+    max-width: 1000px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    align-items: stretch;
+    
 }
 
 .blurb_img {
-    height: 100%;
-    width: auto;
-    margin-left: 12%;
+    flex: 1 1 300px;
+    max-width: 400px;
+    display: flex;
+    align-items: stretch;
+    
 }
 
 .b_img {
     height: 100%;
-    width: auto;
-    display: flex;
-    object-fit: contain;
+    width: 100%;
+    display: block;
+    object-fit: cover;
   
 }
 
 .blurb_text {
-   height: 100%;
-   width: auto;
+   flex: 1 1 300px;
+   
    text-align: center;
-   padding: 100px 100px 0 100px;
-   margin-top: auto;
-   margin-bottom: auto;
+   justify-content: center;
+   font-family: 'Marcellus', serif;
+   font-weight: 500;
+   padding: 30px 40px;
+   
    background-color: aliceblue;
-   margin-right: 10%;
+   box-sizing: border-box;
+}
+.blurb h3 {
+    padding-bottom: 10px;
+    font-size: 22px;
+    letter-spacing: 2px;
 }
 
 .video_play {
@@ -207,10 +223,8 @@ nav .nav_links a:hover {
     width: 100%;
     height: 100%;
     font-family: "Petit Formal Script", cursive;
-    font-weight: 900;
-    color: rgb(255, 255, 255);
-    -webkit-text-stroke-width: 0.1px;
-    -webkit-text-stroke-color: black;
+    font-weight: bolder;
+    color: rgb(88, 71, 48);
     font-size: 50px;
     display: flex;
     justify-content: center;
@@ -222,6 +236,7 @@ nav .nav_links a:hover {
     width: 100%;
     object-fit: cover;
     display: block;
+    
 }
 /*End of Home Page*/
 
@@ -257,6 +272,11 @@ a {
     color: black;
 }
 
+.footer p {
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+}
+
 .footer {
     display: flex;
     align-self: center;
@@ -272,6 +292,10 @@ a {
 
 .footer_sub1 {
     background-color: aliceblue;
+}
+
+.vid_credit {
+    font-size: 9px;
 }
 
 /*End of Footer*/
@@ -313,8 +337,9 @@ a {
 
 .head1_img {
     margin-top: 50px;
-    margin-right: 200px;
-    width: 300px;
+    margin-right: 60px;
+    width: 320px;
+    border-radius: 20px;
 
 
 }
@@ -322,22 +347,29 @@ a {
 
 .heading1_text {
     margin-top: 100px;
-    margin-left: 130px;
+    margin-left: 60px;
     width: 300px;
     height: 200px;
+    font-family: 'Marcellus', serif;
+    font-size: 15px;
 }
 
 .heading1_text h3 {
-    font-size: 25px;
+    font-size: 30px;
+    font-family: "Amarante", serif;
+    color: #000000;
+    letter-spacing: 3px;
     padding-bottom: 15px;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #000000;
     
     
     
 }
 
 .head1_p {
-    font-size: 15px;
+    
+    font-family: 'Marcellus', serif;
+    font-size: 16px;
     padding-top: 15px;
 
 }
@@ -356,9 +388,11 @@ a {
 }
 
 
-h2 {
+.quiz_container h2 {
     margin: 20px;
-    font-family: "Marcellus", serif;
+    font-family: "Amarante", serif;
+    letter-spacing: 3px;
+    font-weight: 600;
     border-bottom: 2px solid black;
     padding-bottom: 20px;
     text-align: center;
@@ -473,10 +507,11 @@ button:disabled {
 
 
 .info_top {
-    height: 700px;
+    height: 75vh;
     justify-content: space-between;
     border-radius: 60px;
-    margin: 75px;
+    margin: 10vh 75px 0;
+    align-items: center;
     
     font-family: "Marcellus", serif;
 
@@ -484,27 +519,37 @@ button:disabled {
 
 .info_main {
     display: flex;
+    width: 70vw;
     justify-content: space-between;
+    
+    align-items: center;
+    margin: 7vh auto 0;
 }
 
 .info_top h2 {
     text-align: center;
     padding-top: 30px;
+    font-family: "Amarante", serif;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+    font-size: 32px;
 }
 
 .top_img {
-    
+    margin-left: 3vw;
     margin-top: 30px;
-    margin-left: 110px;
+    
 }
 
 .extra_resource {
-    margin-left: 115px;
+    margin-left: 3vw;
 }
 
 .extra_resource h4 {
     padding: 15px 0 10px 0;
-    font-size: 18px;
+    font-size: 21px;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 .extra_resource p {
@@ -514,22 +559,25 @@ button:disabled {
 }
 
 .top_text {
-    margin-top: 20px;
-    margin-right: 100px;
-    width: 600px;
-    height: 200px;
+    margin-top: 10px;
+    margin-left: 10vw;
+    min-width: 35vw;
+    
 }
 
 .top_text h3 {
-    font-size: 21px;
+    font-size: 23px;
     font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+    
     
      
 }
 
 .top_text h4 {
-    padding-top: 20px;
+    padding-top: 22px;
     font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
     
 
 }
@@ -543,6 +591,8 @@ button:disabled {
 .top_text li {
     margin-left: 30px;
     list-style: square;
+    font-size: 15px;
+
 
 }
 
@@ -558,93 +608,89 @@ span {
 
 .routine {
     width: 100%;
-
-
+    margin-top: 10vh;
+    margin-bottom: 10%;
 }
 
 .icon_span {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
     
-
+    
 }
 
-.routine img {
+.each {
+    margin: 50px 60px 80px 60px;
+    position: relative;
     width: 200px;
-    border-radius: 50%;
-    margin: 50px 60px 20px 60px;
+    height: 200px;
 }
 
-.routine2 img {
-    width: 180px;
-    border-radius: 50%;
-    margin: 50px 40px 20px 40px;
 
-}
-
-.routine h2 {
-    border-bottom: none;
-    font-size: 18px;
-}
-
-.routine2 h2 {
-    border-bottom: none;
-    font-size: 18px;
-}
-
-.overlay {
+.each img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin: 50px 60px 10px 60px;
-    display: none;
+    object-fit: cover;
+    display: block;
+
+}
+
+
+.routine h2 {
+    text-align: center;
+    border-bottom: none;
+    padding-top: 15px;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin: 20px;
+    
+}
+
+.routine h6 {
+    text-align: center;
+    font-size: 10px;
+}
+
+.overlay {
+    
+    border-radius: 50%;
     background-color: #c3a77283;
     text-align: center;
-
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
     
 }
 
 .overlay p {
-    width: 200px;
-    height: 200px;
-    padding: 70px 20px 0 20px;
-    font-size: 14px;
-}
-
-.overlay2 {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    margin: 50px 40px 10px 40px;
-    display: none;
-    background-color: #c3a77283;
-    text-align: center;
-
     
-}
-
-.overlay2 p {
-    width: 180px;
-    height: 180px;
-    padding: 50px 20px 0 20px;
     font-size: 14px;
+    padding: 10px;
+    font-family: 'Marcellus', serif;
 }
-
 
 
 .each:hover img {
-    display: none;
+    opacity: 0;
 }
 
 .each:hover .overlay {
-    display: block;
+    opacity: 1;
 }
 
-.each:hover .overlay2 {
-    display: block;
-}
+
 /*End of all skin type pages*/
 
 
@@ -654,7 +700,8 @@ span {
     text-align: center;
     margin: 120px 0 60px 0;
     font-size: 100px;
-    font-family: "Marck Script", cursive;
+    font-family: "Amarante", serif;
+    letter-spacing: 4px;
     color: #493e2d;
 }
 
@@ -677,25 +724,28 @@ span {
 .onpage {
     
     background-color: white;
-    width: 350px;
-    padding: 50px 40px 0 40px;
-    text-align: center;
+    width: 23%;
+    padding: 50px 40px 0 30px;
+    text-align: right;
     max-height: 483px;
 }
 
 .onpage h2 {
-    font-family: 'Marcellus', serif;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
     margin-bottom: 0;
     margin-top: 0;
+    text-align: center;
 }
 
 .onpage li {
     
     font-size: 23px;
     padding-top: 25px;
-    
-    font-family: 'Marcellus', serif;
+    margin-right: 2rem;
+    font-family: "Josefin Sans", sans-serif;
     font-weight: 500;
 
 }
@@ -708,16 +758,27 @@ span {
     list-style: none;
 }
 
+.outlinks {
+    width: 77%;
+}
+
 .outlinks img {
+    
     height: 250px;
     border-radius: 20px;
-    margin: 20px 30px 15px 30px;
+    margin: 20px auto 15px auto;
+    
+   
+   
 
 }
 
 .imglinks {
-    margin: 30px 50px 10px 70px ;
+    margin: 40px auto 30px auto;
+    width: 90%;
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     
 }
 
@@ -726,13 +787,17 @@ span {
     text-align: left;
     margin: 80px 0 10px 120px;
     font-size: 35px;
+    font-family:"Josefin Sans", sans-serif ;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+
 
 }
 
 .together p {
     text-align: center;
     font-size: 22px;
-    font-family: 'Marcellus', serif;
+    font-family:"Josefin Sans", sans-serif ;
     font-weight: bolder;
 }
 
@@ -745,20 +810,25 @@ html {
     width: 80%;
     align-items: center;
     margin-left: 120px;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 .importance {
     margin-top: 40px;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 .advice_middle h2 {
     text-align: left;
     margin: 60px 0 20px 0;
     font-size: 35px;
+    font-family:"Josefin Sans", sans-serif ;
+    border-bottom: 2px solid black;
 }
 
 .advice_middle p {
     font-size: 20px;
+    font-family: 'Marcellus', serif;
     
 }
 
@@ -783,8 +853,15 @@ h5 {
 }
 
 .advice_background strong {
-    color: #232426;
+    font-weight: 500;
+    background-color: #faf5ce9f;
+
+}
+
+.advice_background mark {
     font-weight: 600;
+    background-color: #edc895;
+
 
 }
 

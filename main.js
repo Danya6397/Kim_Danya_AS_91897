@@ -24,7 +24,7 @@ const questions = [
         text:"How does your skin feel after a hot shower?",
         options: [
             {text: "It can sting a little", value: 1},
-            { text: "Feels tight and dry", value: 2 },
+            { text: "It feels tight and dry", value: 2 },
             { text: "It feels fine", value: 3 },
             { text: "Tight in some places but mostly fine", value: 4}
         ]
@@ -35,7 +35,7 @@ const questions = [
             { text: "Always, my skin doesn't feel comfortable without it", value: 1 },
             { text: "Often, I like the feel of it", value: 2 },
             { text: "Rarely, I don't think my skin needs it", value: 3},
-            { text: "Mever, my skin feels hydrated without", value: 4}
+            { text: "Never, my skin feels hydrated without", value: 4}
         ]
     },
     {
